@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!--<TextView
+        android:id="@+id/labelTitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_Titre"
+        android:textSize="28sp"
+        app:layout_constraintLeft_toRightOf="@id/imageView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"
+        ></TextView> -->
+
+    <TextView
+        android:id="@+id/titreManga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:textSize="25sp"
+        android:text="@string/titre_Manga"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/imageView"
+        android:layout_marginTop="30dp"
+        >
+    </TextView>
+   <!-- <TextView
+        android:id="@+id/labelVolumes"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/label_volumes"
+        app:layout_constraintTop_toBottomOf="@id/titreManga"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/imageView"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        >
+    </TextView>-->
+    <TextView
+        android:id="@+id/nbVolumes"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/nb_volumes"
+        app:layout_constraintTop_toBottomOf="@id/titreManga"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/imageView"
+        android:textSize="25sp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        >
+    </TextView>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="219dp"
+        android:layout_height="223dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+  <!--  <TextView
+        android:id="@+id/labelSynopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_Synopsis"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintRight_toRightOf="@id/imageView"
+        />
+-->
+    <TextView
+        android:id="@+id/synopsisText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/synopsis"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/synopsisText"
+        app:layout_constraintRight_toRightOf="@id/synopsisText"
+        app:layout_constraintLeft_toLeftOf="@id/synopsisText"
+        android:layout_marginTop="15dp"
+        android:text="@string/btnAjouterManga"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+</androidx.constraintlayout.widget.ConstraintLayout>

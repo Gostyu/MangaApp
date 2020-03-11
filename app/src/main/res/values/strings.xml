@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MangaApp</string>
+    <string name="label_Titre">Manga :</string>
+    <string name="titre_Manga">...titre...</string>
+    <string name="label_volumes">Tomes :</string>
+    <string name="nb_volumes">..0 Tomes..</string>
+    <string name="label_Chapitre">Chapitres :</string>
+    <string name="nb_Chapitres">..0 chapitres..</string>
+    <string name="label_Synopsis">Synopsis</string>
+    <string name="synopsis">...synopsis...</string>
+    <string name="btn_search_text">Rechercher</string>
+    <string name="labelSearchManga">Rechercher un manga</string>
+    <string name="btn_search_manga">Rechercher un manga</string>
+    <string name="btn_search_anime">Rechercher un anime</string>
+    <string name="btnAjouterManga">Ajouter</string>
+</resources>
